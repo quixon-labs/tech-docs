@@ -1,6 +1,6 @@
 # Source code repository model
 
-### TL;DR
+### Highlights
 
 - **Hybrid mix of monorepo and multi-repo.** 
 - Each project lives in it's own repo.
