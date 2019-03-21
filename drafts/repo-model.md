@@ -1,4 +1,4 @@
-# Source code repository model
+# Repository Model
 
 ### Highlights
 
@@ -9,7 +9,7 @@
 - Internal repo paths are always relative.
 - [TODO] Versioning is explained here.
 
-### Detailed:
+### Detailed
 
 - Cognitively, a high-level mono repo.
 - **Dependency projects** are resolved from the **mono-repo root** (usually the parent dir). 
