@@ -1,4 +1,4 @@
-# rust-conventions
+# Rust Conventions
 
 ### Todo
 - Basic conventions - Refer to rust docs
