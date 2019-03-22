@@ -1,4 +1,4 @@
-# Experience Report: Linux distributions
+# Experience report: Linux distributions
 
 ## Current Bias: Ubuntu LTS
 
