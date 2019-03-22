@@ -7,7 +7,7 @@
 - Checkout all relevant source code into a mono-repo root, say "quixon" directory. 
 - Local builds follow monorepo paradigm.
 - Internal repo paths are always relative.
-- [TODO] Versioning is explained here.
+- [Versioning](versioning.md)
 
 ### Detailed
 
