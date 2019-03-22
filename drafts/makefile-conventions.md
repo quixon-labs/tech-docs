@@ -4,7 +4,7 @@
 
 Name | Notes
 --- | ---
-__DEBUG__ | 0/1 - For controlling release/debug builds, runs, etc.
+__DEBUG__ | 0/1 - For controlling release/debug builds, runs, etc during agnostic targets like _run_ or _build_. 
 __TARGET__ | For choosing target of multi-target build systems
 __CARGO_ARGS__ | For cargo specific args
 __prefix__ | Install prefixes if needed.
