@@ -32,9 +32,9 @@ __install/uninstall__ | Self-explanatory. Always pair install with uninstall.
 __default__ | When an additional indirection is used for first rule
 __check__ | Lints/rust cargo check.
 
-## Extra Conventions
+### Extra Conventions
 
-Convention when there are multiple dependencies or for better granularity. 
+Conventions when there are multiple dependencies or for better granularity. 
 Note: *Let this grow organically, and try not to over-engineer makefiles*
 
 Rule | Notes
