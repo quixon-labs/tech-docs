@@ -26,7 +26,7 @@ fedora-devel and contributing back is great with standard git based workflows, p
 ### Ubuntu
 
 - Debian goodness.
-- apparmor: While selinux is arguably more secure with more granular control, apparmour's simplicity and selective targeting in practise results in good opt-in security with higher productivity. I've also never liked selinux context labels. 
+- apparmor: While SELinux is arguably more secure with more granular control, apparmour's simplicity and selective targeting in practise results in good opt-in security with higher productivity. SELinux context labels, while sound in theory, is often a pain in practice with a lot more moving parts. 
 - Debian testing (LTS)/unstable base. Great scale-able multi-arch story inheriting Debian's multi-arch (/lib/${arch-triplet} architecture).
 - Has a good arm dev story with dpkg multi architecture. A simple "dpkg --add-architecture armhf/aarch64" should do the trick for arm (eg: android) targeting
 - snapd - while snapd started with controversial development and flatpak providing a better desktop packaging story - snap is just fantastic for the IoT space. 
