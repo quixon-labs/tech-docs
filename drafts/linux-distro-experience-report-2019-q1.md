@@ -14,8 +14,9 @@ While dev systems and production server need not be on the same base, there is a
 - Fedora leads innovation with the most recent packages.
 Stays closer to upstream, and has a reputation of working with upstream rather than patching source with controversial behaviour.
 - dnf is a great package manger with better transactions, history, delta rpms, plugin architecture etc, coupled with rpm's finer packaging details like checksums, modification checks, with single command "rpm -Va", etc.
-- Tries to do the right thing vs. easy. (firewalld, selinux, to minor packing details like docker default config etc)
-- Doesn't provide a great arm story on dev systems. - Doesn't have a great multi-arch story in general with FHS3.0, as opposed to Debian's multi-arch.
+- Tries to do the right thing vs. easy. (firewalld, selinux, all the way to minor packaging details that have better design and more security focused (eg. docker) etc)
+- Doesn't provide a great arm story on dev systems. 
+- Doesn't have a great multi-arch story in general with FHS3.0, as opposed to Debian's multi-arch.
 - Doesn't have a specific IoT strategy. 
 - RHEL8 has interesting changes deprecating KDE, OpenLDAP, etc which raises questions. 
 - IBM acquisition and questionable OSS direction.
