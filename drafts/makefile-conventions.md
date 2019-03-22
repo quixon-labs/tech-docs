@@ -1,6 +1,6 @@
 # Makefile Conventions
 
-## Variables
+### Variables
 
 Name | Notes
 --- | ---
@@ -9,7 +9,7 @@ __TARGET__ | For choosing target of multi-target build systems
 __CARGO_ARGS__ | For cargo specific args
 __prefix__ | Install prefixes if needed.
 
-## Common rules
+### Common rules
 
 Rule | Notes 
 --- | ---
@@ -20,7 +20,7 @@ __clean__ | Clean just enough for a fresh rebuild of current project only
 __purge__ | Complete clean including all deps
 __test__ | Run default tests
 
-## Additional rules
+### Additional rules
 
 Rule | Notes 
 --- | ---
@@ -32,7 +32,7 @@ __install/uninstall__ | Self-explanatory. Always pair install with uninstall.
 __default__ | When an additional indirection is used for first rule
 __check__ | Lints/rust cargo check.
 
-### Extra Conventions
+#### Extra Conventions
 
 Conventions when there are multiple dependencies or for better granularity. 
 Note: *Let this grow organically, and try not to over-engineer makefiles*
