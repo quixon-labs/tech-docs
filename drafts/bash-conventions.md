@@ -4,8 +4,6 @@
 
 - MUST use `set -Eeuo pipefail` right after hash-bang declaration.
 - MUST use snake casing for function names, and don't use hyphen.
-- MUST use `[[` .. `]]` for test and don't use `[` or `test` command.
-    - POSIX compatible test syntax has many unintuitive nuances that make life difficult.
 
 ## Do
 
@@ -21,6 +19,8 @@
 - DO validate every variable on first use in a function.
     - Use `{:?}` to fail or `{:-}` to assign default, to deal with this. 
     - More: https://wiki.bash-hackers.org/syntax/pe
+- DO use `[[` .. `]]` for test and don't use `[` or `test` command.
+    - POSIX compatible test syntax has many unintuitive nuances that make life difficult.
 
 ## Don't
 
