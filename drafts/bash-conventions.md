@@ -7,7 +7,7 @@
 
 ## Do
 
-- DO start scripts with `#/bin/bash`. 
+- DO start scripts with `#!/bin/bash`. 
     - It's concise and every system we target has bash in `/bin`. So there's no need to use env.
 - DO split long lines with `\`.
 - DO write a function called `run` and/or `main` when your script spans more than a single line or two.
