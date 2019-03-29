@@ -1,5 +1,15 @@
 # Makefile Conventions
 
+## Syntax
+
+- MUST start with `SHELL := /bin/bash` and stay in line with [bash-conventions](bash-conventions.md)
+- MUST use `.ONESHELL:`
+  - This is far more useful for complex tasks and the consistency makes things easier.
+- MUST use `.PHONY: rule-name` for each target that isn't a file, just above each rule definition.
+- MUST use `kebab-case` for Makefile rule names.
+  - This is for make rule names only.
+  - Bash functions inside makefile follow bash conventions (`snake_case` here)
+
 ### Variables
 
 Name | Notes
