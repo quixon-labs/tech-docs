@@ -14,6 +14,13 @@
 - DO split long lines with `\`.
 - DO write a function called `run` and/or `main` when your script spans more than a single line or two.
   - Use `main` for args validation/usage and run for actual execution if required.
+- DO __group all global variables into a function__, preferrably the first up top named `setup_vars` and
+  execute that from `main`/`run`.
+    - This is invaluable, especially with the strict mode `-u` that we start off with, to know what vars
+      we can use freely.
+- DO validate every variable on first use in a function.
+     - Use `{:?}` to fail or `{:-}` to assign default, to deal with this. 
+     - More: https://wiki.bash-hackers.org/syntax/pe
 
 ## Don't
 
