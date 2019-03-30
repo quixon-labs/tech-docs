@@ -30,3 +30,7 @@ Not much additional rationale is needed, as almost all official docker images ar
 on the stable debian base - it makes the most sense to utilise this to avoid redundant layers.
 And of course, space constrained targets can utilise alpine which again has become the gold
 standard for static binaries.
+
+### Resources
+
+https://blogs.msdn.microsoft.com/stevelasker/2018/03/01/docker-tagging-best-practices-for-tagging-and-versioning-docker-images/
