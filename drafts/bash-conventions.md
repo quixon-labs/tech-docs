@@ -19,8 +19,9 @@
 - DO validate every variable on first use in a function.
     - Use `{:?}` to fail or `{:-}` to assign default, to deal with this. 
     - More: https://wiki.bash-hackers.org/syntax/pe
-- DO use `[[` .. `]]` for test and don't use `[` or `test` command.
+- DO use `[[` .. `]]` for test and don't use `[`.
     - POSIX compatible test syntax has many unintuitive nuances that make life difficult.
+    - `test` command however is fine. 
 
 ## Don't
 
