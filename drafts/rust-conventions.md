@@ -1,5 +1,10 @@
 # Rust Conventions
 
+## Format
+
+- Use `cargo fmt`
+- Use `cargo clippy`
+
 ### Todo
 - Basic conventions - Refer to rust docs, rustfmt, clippy.
 - cli-patterns: StructOpt, clap
