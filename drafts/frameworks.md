@@ -2,7 +2,7 @@
 
 ## Web
 
-## Rust
+### Rust
 
 - Hyper
 - tide
@@ -10,7 +10,7 @@
 - warp
 - tower-web
 
-## TypeScript
+### TypeScript
 
 Avoid nodejs unless absolutely needed, and use `Deno` instead. 
 (https://deno.land)
