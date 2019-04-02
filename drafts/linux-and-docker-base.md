@@ -12,7 +12,7 @@ Ubuntu 18.04 LTS
 
 ### Ordered by priority: 
 
-- musl [pure statics]:
+- musl _(for pure statics)_:
   - alpine
   - alpine derivatives
 
@@ -22,7 +22,7 @@ Ubuntu 18.04 LTS
   - buildpack-deps:stretch
   - buildpack-deps:stretch derivatives
   - ubuntu:bionic
-  - ubuntu:bionic derivatives
+  - ubuntu:bionic derivatives  
 
 ### Rationale
 
