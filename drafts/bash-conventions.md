@@ -1,5 +1,9 @@
 # Bash Conventions
 
+## Format
+
+Use https://github.com/mvdan/sh: `shfmt -i 4`
+
 ## Must
 
 - MUST use `set -Eeuo pipefail` right after hash-bang declaration.
