@@ -4,11 +4,15 @@
 
 ### Rust
 
-- Hyper
 - tide
 - actix-web
 - warp
 - tower-web
+- Use hyper directly
+
+#### Websockets
+
+- https://github.com/snapview/tungstenite-rs
 
 ### TypeScript
 
@@ -16,6 +20,10 @@ Avoid nodejs unless absolutely needed, and use `Deno` instead.
 (https://deno.land)
 
 - https://github.com/zhmushan/abc
+
+#### Websockets
+
+- https://github.com/denoland/deno_std/tree/master/ws
 
 ## Parsing
 
