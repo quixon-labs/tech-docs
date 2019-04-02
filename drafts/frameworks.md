@@ -2,6 +2,8 @@
 
 ## Web
 
+[TODO] Rationale report
+
 ### Rust
 
 - tide
@@ -29,7 +31,7 @@ Avoid nodejs unless absolutely needed, and use `Deno` instead.
 
 Speech to text, and then text context and NLP requires heavy use parser combinator frameworks.
 
-[TODO] Report on the bias rationale.
+[TODO] Rationale report.
 
 ### Use
 - nom
