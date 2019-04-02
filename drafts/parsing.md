@@ -5,6 +5,7 @@ Speech to text, and then text context and NLP requires heavy use parser combinat
 [TODO] Report on the bias rationale
 
 - https://github.com/lalrpop/lalrpop [Preferred]
-- nom
+- nom [2nd]
+- https://github.com/Marwes/combine
 - pest.rs
 
