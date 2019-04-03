@@ -10,7 +10,6 @@
 - actix-web
 - warp
 - tower-web
-- Use hyper directly
 
 #### Websockets
 
