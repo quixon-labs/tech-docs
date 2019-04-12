@@ -41,6 +41,7 @@ __deps__ | All deps (commonly aggregated rule set)
 __install/uninstall__ | Self-explanatory. Always pair install with uninstall.
 __default__ | When an additional indirection is used for first rule
 __check__ | Lints/rust cargo check.
+__fmt__ | Format and/or check combined
 
 #### Extra Conventions
 
