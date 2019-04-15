@@ -7,9 +7,9 @@
 ### Rust
 
 - tide
-- actix-web
-- warp
 - tower-web
+
+**Others**: actix-web (actor model), warp
 
 #### Websockets
 
