@@ -28,7 +28,7 @@ Avoid nodejs unless absolutely needed, and use `Deno` instead.
 
 ## Parsing
 
-Speech to text, and then text context and NLP requires heavy use parser combinator frameworks.
+Speech to text, and then text context and NLP requires heavy use of parser combinator frameworks.
 
 [TODO] Rationale report.
 
