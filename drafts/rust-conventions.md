@@ -12,3 +12,6 @@
 - parking_lot, crossbeam, rayon use cases
 - futures, async-await story
 - futures 0.3 compat
+
+## Resources
+https://rust-lang-nursery.github.io/api-guidelines/about.html
